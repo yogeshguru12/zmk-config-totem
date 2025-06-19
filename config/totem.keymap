@@ -39,10 +39,24 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog TVP1>;
+        spotligh_left {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <1 2 3>;
+        };
+
+        spotlight_right {
+            bindings = <&kp RG(SPACE)>;
+            key-positions = <6 7 8>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <22 23>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <23 24>;
         };
     };
 
